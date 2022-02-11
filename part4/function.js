@@ -13,8 +13,12 @@ function print(message){
 	console.log(message);
 	console.log("print function out");
 }
+//print function in
+// 사용자가 입력한 message의 값
+// print function out
 
 function sum(arg1, arg2){
 	var result=arg1+arg2;
 	return result;
 }
+// 1,2 입력 시 3출력

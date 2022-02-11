@@ -39,7 +39,9 @@ console.log(!false); //true
 var height=180, age=20;
 //180이상이고 20대인사람
 console.log(height>=180 && age>=20 && age<30); //true
-height=170 //키를 170으로 낮춰봄
+height=170; //키를 170으로 낮춰봄
 console.log(height>=180 && age>=20 && age<30); //false
-//8살 초과 또는 65세 이하
-console.log(age < 8 || age >= 65);
+//8살 미만 또는 65세 이상
+console.log(age < 8 || age >= 65); //false
+age = 70; //나이를 70으로 변경
+console.log(age < 8 || age >= 65); //true
